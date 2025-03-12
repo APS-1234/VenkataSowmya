@@ -1,0 +1,325 @@
+/* Custom Styles */
+body {
+    padding-top: 56px; /* Adjust for fixed navbar */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f8f9fa;
+    background-color: #000000; /* Dark background for the entire page */
+    line-height: 1.6;
+}
+
+/* Full-screen Home Section with Gradient Background */
+#home {
+    background: linear-gradient(135deg, #000000, #000000);
+    color: white;
+    height: 100vh; /* Full-screen height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#home h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:  rgb(229, 9, 20); /* Accent color for the name */
+    animation: fadeIn 2s ease-in-out;
+}
+
+#home p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #f8f9fa;
+    animation: fadeIn 3s ease-in-out;
+}
+
+#home .lead {
+    font-size: 1.2rem;
+    color: #adb5bd;
+    animation: fadeIn 4s ease-in-out;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Skills Section */
+#skills {
+    background-color: #000000;
+    padding: 100px 0;
+}
+
+#skills .card {
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #f8f9fa;
+}
+
+#skills .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+#skills .card-title {
+    color:  rgb(229, 9, 20);
+    font-weight: bold;
+}
+
+/* Experience Section */
+#experience {
+    background-color: #000000;
+    padding: 100px 0;
+}
+
+#experience .card {
+    background-color: #000000;
+    border: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #f8f9fa;
+}
+
+#experience .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+#experience .card-title {
+    color:  rgb(229, 9, 20);
+    font-weight: bold;
+    background-color: #000000;
+}
+
+/* Education Section */
+#education {
+    background-color: #000000;
+    padding: 100px 0;
+}
+
+#education .card {
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #f8f9fa;
+}
+
+#education .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+#education .card-title {
+    color:  rgb(229, 9, 20);
+    font-weight: bold;
+}
+
+/* Accomplishments Section */
+
+
+/* Coursework Section */
+#coursework {
+    background-color: #000000;
+    padding: 100px 0;
+}
+
+#coursework .list-group-item {
+    background-color: #000000;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #f8f9fa;
+}
+
+#coursework .list-group-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    color: rgb(229, 9, 20);
+
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #000000 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color:  rgb(229, 9, 20) !important; /* Accent color on hover */
+}
+
+/* Ensure all navbar modules have the same background color */
+.navbar-nav .nav-item {
+    background-color: #000000; /* Same as navbar background */
+}
+
+.navbar-nav .nav-item:hover {
+    background-color: #000000; /* Slightly lighter on hover */
+}
+.details-class{
+    color: white;
+}
+.studies-class{
+    color: white;
+}
+.company-class{
+    color: white;
+}
+.Location-class{
+    margin-top: 0px;
+}
+.skills-class{
+    margin-top: 10px;
+    text-align: center;
+    font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+    color: white;
+   
+}
+.skills-class:after,.skills-class:before{
+    content: " ";
+    display: block;
+    border-bottom: 1px solid rgb(229, 9, 20);
+    border-top: 1px solid rgb(229, 9, 20);
+    height: 5px;
+  background-color:#000000;
+}
+.bg-dark{
+    background-color: #000000;
+}
+.Experience-class{
+    margin-top: 10px;
+    text-align: center;
+    font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+    text-transform: uppercase;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+.Experience-class:after,.Experience-class:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid rgb(229, 9, 20);
+    border-top: 1px solid rgb(229, 9, 20);
+    height: 5px;
+  background-color:#000000;
+}
+.Education-class{
+    margin-top: 10px;
+    text-align: center;
+    font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+    text-transform: uppercase;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+.Education-class:after,.Education-class:before{
+    content: " ";
+    display: block;
+    border-bottom: 1px solid rgb(229, 9, 20);
+    border-top: 1px solid rgb(229, 9, 20);
+    height: 5px;
+  background-color:#000000;
+}
+.Relevant-class{
+    text-align: center;
+    font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+    text-transform: uppercase;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+.Relevant-class:after,.Relevant-class:before{
+    content: " ";
+    display: block;
+    border-bottom: 1px solid rgb(229, 9, 20);
+    border-top: 1px solid rgb(229, 9, 20);
+    height: 5px;
+  background-color:#000000;
+}
+.social-icons a {
+    text-decoration: none;
+    font-size: 35px;
+    color: #fff; /* White icons for visibility on black */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+/* Custom Hover Colors */
+.bi-facebook:hover { color: #1877f2; }
+.bi-twitter:hover { color: #1da1f2; }
+.bi-instagram:hover { color: #e4405f; }
+.bi-linkedin:hover { color: #0077b5; }
+.bi-github:hover { color: #999; }
+.bi-youtube:hover { color: #ff0000; }
+.bi-whatsapp:hover { color: #25d366; }
+.bi-envelope-fill:hover{
+    color: rgb(229, 9, 20);
+}
+#Projects {
+    background-color: #000000;
+    padding: 100px 0;
+}
+
+#Projects .card {
+    background-color: #000000;
+    border: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #f8f9fa;
+}
+
+#Projects .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+#Projects .card-title {
+    color: rgb(229, 9, 20);
+    font-weight: bold;
+    background-color: #000000;
+}
